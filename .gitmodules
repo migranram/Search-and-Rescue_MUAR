@@ -1,3 +1,0 @@
-[submodule "SAR_ROS_ws/src/nexus_4wd_mecanum_simulator"]
-	path = SAR_ROS_ws/src/nexus_4wd_mecanum_simulator
-	url = https://github.com/RBinsonB/nexus_4wd_mecanum_simulator
