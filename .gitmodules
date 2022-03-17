@@ -1,6 +1,3 @@
 [submodule "SAR_ROS_packages/nexus_4wd_mecanum_simulator"]
 	path = SAR_ROS_packages/nexus_4wd_mecanum_simulator
 	url = https://github.com/RBinsonB/nexus_4wd_mecanum_simulator/
-[submodule "SAR_ROS_packages/usb_cam"]
-	path = SAR_ROS_packages/usb_cam
-	url = https://github.com/ros-drivers/usb_cam
