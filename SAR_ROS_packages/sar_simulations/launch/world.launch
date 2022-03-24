@@ -16,7 +16,7 @@
   </include>
 
 <!-- Load robot description -->
-<include file="$(find nexus_4wd_mecanum_description)/launch/nexus_4wd_mecanum_description.launch" />
+<include file="$(find sar_simulations)/launch/robot.launch" />
 
   <!-- Spawn the robot -->
   <node name="urdf_spawner" pkg="gazebo_ros" type="spawn_model"
