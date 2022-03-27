@@ -1,0 +1,8 @@
+<?xml version="1.0"?>
+<launch>
+	<remap from="turtle1/cmd_vel" to="/cmd_vel"/>
+
+	<!-- Call the tutlesim teleop tool -->
+	<node name="turtlesim" pkg="turtlesim" type="turtle_teleop_key"/>
+
+</launch>

@@ -1,25 +1,28 @@
 <?xml version="1.0"?>
 <launch>
-  <arg name="use_sim_time" default="true" />
-  <arg name="gui" default="true" />
-  <arg name="headless" default="false" />
-  <!-- <arg name="world_name" default="$(find nexus_gazebo)/worlds/nexus_4wd_mecanum.world" /> -->
+	<remap from="camera1/image_raw" to="/camera/image_raw"/>
+	<remap from="Mi_imu/imu_data" to="/imu"/>
 
-  <include file="$(find gazebo_ros)/launch/empty_world.launch">
-    <arg name="world_name" value="worlds/willowgarage.world"/>
-    <arg name="debug" value="0" />
-    <arg name="gui" value="$(arg gui)" />
-    <arg name="use_sim_time" value="$(arg use_sim_time)" />
-    <arg name="headless" value="$(arg headless)" />
-    <!-- <arg name="world_name" value="$(arg world_name)" /> -->
-    <arg name="paused" value="false"/>
-  </include>
+	<arg name="use_sim_time" default="true" />
+	<arg name="gui" default="true" />
+	<arg name="headless" default="false" />
+	<!-- <arg name="world_name" default="$(find nexus_gazebo)/worlds/nexus_4wd_mecanum.world" /> -->
 
-<!-- Load robot description -->
-<include file="$(find sar_simulations)/launch/robot.launch" />
+	<include file="$(find gazebo_ros)/launch/empty_world.launch">
+	<arg name="world_name" value="worlds/willowgarage.world"/>
+	<arg name="debug" value="0" />
+	<arg name="gui" value="$(arg gui)" />
+	<arg name="use_sim_time" value="$(arg use_sim_time)" />
+	<arg name="headless" value="$(arg headless)" />
+	<!-- <arg name="world_name" value="$(arg world_name)" /> -->
+	<arg name="paused" value="false"/>
+	</include>
 
-  <!-- Spawn the robot -->
-  <node name="urdf_spawner" pkg="gazebo_ros" type="spawn_model"
-        args="-urdf -model nexus_4wd_mecanum -param robot_description -x 0 -y 0 -z 0.5" />
+	<!-- Load robot description -->
+	<include file="$(find sar_simulations)/launch/robot.launch" />
+
+	<!-- Spawn the robot -->
+	<node name="urdf_spawner" pkg="gazebo_ros" type="spawn_model"
+		args="-urdf -model nexus_4wd_mecanum -param robot_description -x 0 -y 0 -z 0.5" />
 
 </launch>
