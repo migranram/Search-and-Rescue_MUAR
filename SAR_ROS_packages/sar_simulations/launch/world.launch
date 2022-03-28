@@ -1,6 +1,6 @@
 <?xml version="1.0"?>
 <launch>
-	<remap from="camera1/image_raw" to="/camera/image_raw"/>
+	<!--<remap from="camera1/image_raw" to="/camera/image_raw"/> -->
 	<remap from="Mi_imu/imu_data" to="/imu"/>
 
 	<arg name="use_sim_time" default="true" />
