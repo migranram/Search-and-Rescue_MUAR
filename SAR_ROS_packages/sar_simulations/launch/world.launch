@@ -9,7 +9,7 @@
 	<!-- <arg name="world_name" default="$(find nexus_gazebo)/worlds/nexus_4wd_mecanum.world" /> -->
 
 	<include file="$(find gazebo_ros)/launch/empty_world.launch">
-	<arg name="world_name" value="worlds/willowgarage.world"/>
+	<arg name="world_name" value="$(find sar_simulations)/worlds/sar.world"/>
 	<arg name="debug" value="0" />
 	<arg name="gui" value="$(arg gui)" />
 	<arg name="use_sim_time" value="$(arg use_sim_time)" />
@@ -23,6 +23,6 @@
 
 	<!-- Spawn the robot -->
 	<node name="urdf_spawner" pkg="gazebo_ros" type="spawn_model"
-		args="-urdf -model nexus_4wd_mecanum -param robot_description -x 0 -y 0 -z 0.5" />
+		args="-urdf -model nexus_4wd_mecanum -param robot_description -x 0 -y 0.5 -z 1" />
 
 </launch>
