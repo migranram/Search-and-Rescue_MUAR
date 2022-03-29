@@ -8,7 +8,6 @@ project(sar_SLAM)
 ## if COMPONENTS list like find_package(catkin REQUIRED COMPONENTS xyz)
 ## is used, also find other catkin packages
 find_package(catkin REQUIRED COMPONENTS
-  ORB_SLAM2
   cv_bridge
   nav_msgs
   roscpp
