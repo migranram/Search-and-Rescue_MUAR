@@ -46,4 +46,7 @@
         <param name="camera_p2" type="double" value="0.001785792293958366" />
         <param name="camera_k3" type="double" value="0.0" />
     </node>
+
+    <node pkg="rviz" type="rviz" name="rviz" required="true"
+    args="-d $(find sar_SLAM)/rviz/slam_rviz.rviz"/>
   </launch>
