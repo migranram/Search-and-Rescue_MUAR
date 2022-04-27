@@ -11,6 +11,7 @@ Panels:
         - /Image1
         - /Map2
         - /Map3
+        - /Pose1
       Splitter Ratio: 0.5
     Tree Height: 355
   - Class: rviz/Selection
@@ -90,7 +91,7 @@ Visualization Manager:
       Value: true
     - Alpha: 0.699999988079071
       Class: rviz/Map
-      Color Scheme: map
+      Color Scheme: costmap
       Draw Behind: false
       Enabled: true
       Name: Map
@@ -100,13 +101,29 @@ Visualization Manager:
       Value: true
     - Alpha: 0.699999988079071
       Class: rviz/Map
-      Color Scheme: map
+      Color Scheme: costmap
       Draw Behind: false
       Enabled: true
       Name: Map
       Topic: /move_base/global_costmap/costmap
       Unreliable: false
       Use Timestamp: false
+      Value: true
+    - Alpha: 1
+      Axes Length: 1
+      Axes Radius: 0.10000000149011612
+      Class: rviz/Pose
+      Color: 255; 25; 0
+      Enabled: true
+      Head Length: 0.30000001192092896
+      Head Radius: 0.10000000149011612
+      Name: Pose
+      Queue Size: 10
+      Shaft Length: 1
+      Shaft Radius: 0.05000000074505806
+      Shape: Arrow
+      Topic: /move_base/current_goal
+      Unreliable: false
       Value: true
   Enabled: true
   Global Options:
@@ -175,4 +192,4 @@ Window Geometry:
     collapsed: false
   Width: 1267
   X: 353
-  Y: 135
+  Y: 98
