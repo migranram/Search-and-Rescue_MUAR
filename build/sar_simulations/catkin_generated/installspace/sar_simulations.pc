@@ -1,0 +1,8 @@
+prefix=/home/german/catkin_ws2/install
+
+Name: sar_simulations
+Description: Description of sar_simulations
+Version: 0.0.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 

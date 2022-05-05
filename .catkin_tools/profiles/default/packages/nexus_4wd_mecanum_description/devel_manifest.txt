@@ -1,0 +1,5 @@
+Search-and-Rescue_MUAR-lidar/SAR_ROS_packages/nexus_4wd_mecanum_simulator/nexus_4wd_mecanum_description
+/home/german/catkin_ws2/devel/.private/nexus_4wd_mecanum_description/cmake.lock /home/german/catkin_ws2/devel/./cmake.lock
+/home/german/catkin_ws2/devel/.private/nexus_4wd_mecanum_description/share/nexus_4wd_mecanum_description/cmake/nexus_4wd_mecanum_descriptionConfig.cmake /home/german/catkin_ws2/devel/share/nexus_4wd_mecanum_description/cmake/nexus_4wd_mecanum_descriptionConfig.cmake
+/home/german/catkin_ws2/devel/.private/nexus_4wd_mecanum_description/share/nexus_4wd_mecanum_description/cmake/nexus_4wd_mecanum_descriptionConfig-version.cmake /home/german/catkin_ws2/devel/share/nexus_4wd_mecanum_description/cmake/nexus_4wd_mecanum_descriptionConfig-version.cmake
+/home/german/catkin_ws2/devel/.private/nexus_4wd_mecanum_description/lib/pkgconfig/nexus_4wd_mecanum_description.pc /home/german/catkin_ws2/devel/lib/pkgconfig/nexus_4wd_mecanum_description.pc

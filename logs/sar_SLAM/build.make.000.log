@@ -1,0 +1,4 @@
+[35m[1mScanning dependencies of target odom_tf[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/odom_tf.dir/src/odom_tf.cpp.o[0m
+[100%] [32m[1mLinking CXX executable /home/german/catkin_ws2/devel/.private/sar_SLAM/lib/sar_SLAM/odom_tf[0m
+[100%] Built target odom_tf

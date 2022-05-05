@@ -1,0 +1,1 @@
+/home/german/catkin_ws2/devel/.private/sar_SLAM/share/sar_SLAM/cmake/sar_SLAMConfig.cmake

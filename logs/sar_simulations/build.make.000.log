@@ -1,0 +1,4 @@
+[35m[1mScanning dependencies of target sar_simulations_teleop[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/sar_simulations_teleop.dir/src/teleop.cc.o[0m
+[100%] [32m[1mLinking CXX executable /home/german/catkin_ws2/devel/.private/sar_simulations/lib/sar_simulations/sar_simulations_teleop[0m
+[100%] Built target sar_simulations_teleop

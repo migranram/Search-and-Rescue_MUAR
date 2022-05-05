@@ -1,0 +1,1 @@
+/home/german/catkin_ws2/devel/.private/nexus_4wd_mecanum_description/share/nexus_4wd_mecanum_description/cmake/nexus_4wd_mecanum_descriptionConfig-version.cmake

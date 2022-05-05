@@ -1,0 +1,8 @@
+<?xml version="1.0"?>
+<launch>
+
+	<!-- Call the teleop tool -->
+	<rosparam param="vel_mult">3.0</rosparam>
+	<node name="teleop_sar" pkg="sar_simulations" type="sar_simulations_teleop" output="screen"/>
+
+</launch>

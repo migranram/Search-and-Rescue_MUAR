@@ -1,0 +1,1 @@
+/home/german/catkin_ws2/devel/.private/sar_simulations/share/sar_simulations/cmake/sar_simulationsConfig.cmake

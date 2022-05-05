@@ -1,0 +1,4 @@
+Symlinking /home/german/catkin_ws2/devel/share/sar_SLAM/cmake/sar_SLAMConfig.cmake
+Symlinking /home/german/catkin_ws2/devel/share/sar_SLAM/cmake/sar_SLAMConfig-version.cmake
+Symlinking /home/german/catkin_ws2/devel/lib/pkgconfig/sar_SLAM.pc
+Symlinking /home/german/catkin_ws2/devel/lib/sar_SLAM/odom_tf

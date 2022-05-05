@@ -1,0 +1,8 @@
+prefix=/home/german/catkin_ws2/devel/.private/sar_SLAM
+
+Name: sar_SLAM
+Description: Description of sar_SLAM
+Version: 0.0.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 

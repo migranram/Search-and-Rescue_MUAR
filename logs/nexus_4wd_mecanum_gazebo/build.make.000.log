@@ -1,0 +1,4 @@
+[35m[1mScanning dependencies of target nexus_ros_force_based_move[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/nexus_ros_force_based_move.dir/src/nexus_ros_force_based_move.cpp.o[0m
+[100%] [32m[1mLinking CXX shared library /home/german/catkin_ws2/devel/.private/nexus_4wd_mecanum_gazebo/lib/libnexus_ros_force_based_move.so[0m
+[100%] Built target nexus_ros_force_based_move

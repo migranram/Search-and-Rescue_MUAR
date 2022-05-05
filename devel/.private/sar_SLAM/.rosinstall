@@ -1,0 +1,2 @@
+- setup-file:
+    local-name: /home/german/catkin_ws2/devel/.private/sar_SLAM/setup.sh

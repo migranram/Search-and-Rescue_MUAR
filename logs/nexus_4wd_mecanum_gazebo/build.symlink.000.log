@@ -1,0 +1,4 @@
+Symlinking /home/german/catkin_ws2/devel/share/nexus_4wd_mecanum_gazebo/cmake/nexus_4wd_mecanum_gazeboConfig.cmake
+Symlinking /home/german/catkin_ws2/devel/share/nexus_4wd_mecanum_gazebo/cmake/nexus_4wd_mecanum_gazeboConfig-version.cmake
+Symlinking /home/german/catkin_ws2/devel/lib/libnexus_ros_force_based_move.so
+Symlinking /home/german/catkin_ws2/devel/lib/pkgconfig/nexus_4wd_mecanum_gazebo.pc

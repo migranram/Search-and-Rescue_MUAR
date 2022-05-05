@@ -1,0 +1,8 @@
+prefix=/home/german/catkin_ws2/install
+
+Name: nexus_4wd_mecanum_description
+Description: Description of nexus_4wd_mecanum_description
+Version: 0.1.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: robot_state_publisher urdf
