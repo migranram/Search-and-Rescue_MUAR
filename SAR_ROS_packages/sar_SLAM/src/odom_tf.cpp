@@ -5,14 +5,17 @@
 #include <nav_msgs/Odometry.h>
 
 std::string turtle_name;
-
+int i;
 void poseCallback(const nav_msgs::Odometry::ConstPtr& msg){
     static tf2_ros::TransformBroadcaster br;
     geometry_msgs::TransformStamped transformStamped;
 
     transformStamped.header.stamp = ros::Time::now();
+    //transformStamped.header.stamp = msg->header.stamp;
     transformStamped.header.frame_id = "odom";
     transformStamped.child_frame_id = "base_footprint";
+    transformStamped.header.seq = i;
+    ++i;
     transformStamped.transform.translation.x = msg->pose.pose.position.x;
     transformStamped.transform.translation.y = msg->pose.pose.position.y;
     transformStamped.transform.translation.z = 0.0;
@@ -34,7 +37,7 @@ void chatterCallback(const nav_msgs::Odometry::ConstPtr& msg)
 }
 int main(int argc, char** argv){
   ros::init(argc, argv, "tf2_odom_broadcaster");
-  
+  i = 0;
   ros::NodeHandle node;
   ros::Subscriber sub = node.subscribe("/odom", 1000, &poseCallback);
   

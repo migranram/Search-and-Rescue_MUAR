@@ -141,6 +141,9 @@ include_directories(
 # add_executable(${PROJECT_NAME}_node src/sar_SLAM_node.cpp)
 add_executable(odom_tf src/odom_tf.cpp)
 target_link_libraries(odom_tf ${catkin_LIBRARIES})
+
+add_executable(lidar2odom src/lidar2odom.cpp)
+target_link_libraries(lidar2odom ${catkin_LIBRARIES})
 ## Rename C++ executable without prefix
 ## The above recommended prefix causes long target names, the following renames the
 ## target back to the shorter version for ease of user use
