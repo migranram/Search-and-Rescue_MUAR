@@ -1,6 +1,6 @@
 [submodule "SAR_ROS_packages/nexus_4wd_mecanum_simulator"]
-	path = SAR_ROS_packages/nexus_4wd_mecanum_simulator
+	path = SW_ROS_packages/nexus_4wd_mecanum_simulator
 	url = https://github.com/RBinsonB/nexus_4wd_mecanum_simulator/
 [submodule "SAR_ROS_packages/orb_slam_2_ros"]
-	path = SAR_ROS_packages/orb_slam_2_ros
+	path = SW_ROS_packages/orb_slam_2_ros
 	url = https://github.com/appliedAI-Initiative/orb_slam_2_ros.git
