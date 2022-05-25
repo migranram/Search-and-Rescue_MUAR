@@ -15,7 +15,11 @@ Search and Rescue (SAR) for Laboratorio de Automática y Robótica of MUAR. 2021
 ### Software
 - Miguel Granero
 - Germán Ferrando
+<<<<<<< HEAD
 - Daniel Fernández
+=======
+- Daniel Ferández
+>>>>>>> f6c85bedf1336157470f37014c50c7e700d0419d
 ### Hardware
 - Lucas Rey
 - Adrián Rubio
