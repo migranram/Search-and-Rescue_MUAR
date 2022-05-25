@@ -1,0 +1,10 @@
+<?xml version="1.0"?>
+<launch>
+    <include file="$(find sar_simulations)/launch/world.launch"/>
+    <include file="$(find sar_SLAM)/launch/move_base.launch"/>
+    <include file="$(find sar_SLAM)/launch/hector_slam.launch"/>
+
+    <node pkg="tf" type="static_transform_publisher" name="map_to_odom" args="0 0 0 0 0 0 map odom 30" />
+    <node pkg="sar_SLAM" type="odom_tf" name="tf2_odom_broadcaster"/>
+
+</launch>
